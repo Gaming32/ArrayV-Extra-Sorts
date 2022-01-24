@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="ArrayV-Extra-Sorts">
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="source" value="1.8"/>
+    <property name="target" value="1.8"/>
+    <path id="ArrayV-Extra-Sorts.classpath">
+        <pathelement location="bin"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <mkdir dir="dist"/>
+    </target>
+    <target name="clean" description="Cleans build files">
+        <delete dir="bin"/>
+        <delete dir="dist"/>
+    </target>
+    <target depends="init" name="build" description="Builds a JAR into the dist directory">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="ArrayV-Extra-Sorts.classpath"/>
+        </javac>
+        <jar destfile="dist/arrayVisualizer.jar">
+            <manifest>
+                <attribute name="Main-Class" value="main.ArrayVisualizer"/>
+            </manifest>
+            <fileset dir="bin"/>
+        </jar>
+    </target>
+</project>
