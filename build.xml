@@ -3,8 +3,9 @@
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="source" value="1.8"/>
     <property name="target" value="1.8"/>
-    <path id="ArrayV-Extra-Sorts.classpath">
+    <path id="classpath">
         <pathelement location="bin"/>
+        <pathelement location="ArrayV/bin"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
@@ -14,7 +15,10 @@
         <delete dir="bin"/>
         <delete dir="dist"/>
     </target>
-    <target depends="init" name="build" description="Builds a JAR into the dist directory">
+    <target name="build-arrayv">
+        <ant antfile="build.xml" target="build" dir="ArrayV"/>
+    </target>
+    <target depends="init,build-arrayv" name="build" description="Builds a JAR into the dist directory">
         <echo message="${ant.project.name}: ${ant.file}"/>
         <copy includeemptydirs="false" todir="bin">
             <fileset dir="src">
@@ -23,11 +27,11 @@
         </copy>
         <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
             <src path="src"/>
-            <classpath refid="ArrayV-Extra-Sorts.classpath"/>
+            <classpath refid="classpath"/>
         </javac>
-        <jar destfile="dist/arrayVisualizer.jar">
+        <jar destfile="dist/ArrayV-Extra-Sorts.jar">
             <manifest>
-                <attribute name="Main-Class" value="main.ArrayVisualizer"/>
+                <attribute name="Main-Class" value="ArrayVExtraSortsWarning"/>
             </manifest>
             <fileset dir="bin"/>
         </jar>
