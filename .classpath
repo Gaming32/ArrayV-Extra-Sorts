@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="prj" path="/ArrayVisualizer-master"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="ArrayV/bin" sourcepath="ArrayV/src"/>
-	<classpathentry exported="true" kind="lib" path="ArrayV/lib/classgraph-4.8.47.jar" sourcepath="ArrayV/lib/classgraph-4.8.47-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
