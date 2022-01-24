@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="lib" path="ArrayV/bin" sourcepath="ArrayV/src"/>
+	<classpathentry exported="true" kind="lib" path="ArrayV/lib/classgraph-4.8.47.jar" sourcepath="ArrayV/lib/classgraph-4.8.47-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
