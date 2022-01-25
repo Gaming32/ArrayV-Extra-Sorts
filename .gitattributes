@@ -1,0 +1,5 @@
+* text=auto
+
+antw text eol=lf
+
+antw.bat text eol=crlf
