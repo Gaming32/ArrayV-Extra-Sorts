@@ -11,7 +11,10 @@
         <mkdir dir="bin"/>
         <mkdir dir="dist"/>
     </target>
-    <target name="clean" description="Cleans build files">
+    <target name="clean-arrayv">
+        <ant antfile="build.xml" target="clean" dir="ArrayV"/>
+    </target>
+    <target depends="clean-arrayv" name="clean" description="Cleans build files">
         <delete dir="bin"/>
         <delete dir="dist"/>
     </target>
