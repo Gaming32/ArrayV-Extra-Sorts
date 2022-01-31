@@ -58,7 +58,7 @@ public final class ReverseGnomeSort extends Sort {
 
     public void customSort(int[] array, int low, int high, double sleep) {
         for (int i = high - 1; i >= low; i--) {
-            reverseGnomeSort(array, i, high, sleep);
+            reverseGnomeSort(array, i, high - 1, sleep);
         }
     }
 
