@@ -55,7 +55,7 @@ public final class PDBinaryInsertionSort extends Sort {
             if (cmp == 0) lessunique = true;
             if (forward + 1 < end) cmp = Reads.compareIndices(array, forward, forward + 1, delay, true);
         }
-        int reverse = forward == start ? start + 1 : start;
+        int reverse = start;
         if (forward == start) {
             boolean different = false;
             cmp = Reads.compareIndices(array, reverse, reverse + 1, delay, true);
