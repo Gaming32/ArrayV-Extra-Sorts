@@ -6,6 +6,7 @@
     <path id="classpath">
         <pathelement location="bin"/>
         <pathelement location="ArrayV/bin"/>
+        <pathelement location="ArrayV/lib/classgraph-4.8.47.jar"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
@@ -33,5 +34,12 @@
             </manifest>
             <fileset dir="bin"/>
         </jar>
+    </target>
+    <target depends="build" name="run" description="Runs ArrayV with the extra sorts pack (NOTE: ArrayV will not recognize that the extra&#xA;
+         sorts pack is installed, as ArrayV is run *with* the pack, rather than having the&#xA;
+         pack being installed)">
+        <java classname="main.ArrayVisualizer" classpathref="classpath" fork="true">
+            <jvmarg value="-Dsun.java2d.d3d=false"/>
+        </java>
     </target>
 </project>
