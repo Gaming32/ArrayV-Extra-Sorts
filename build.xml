@@ -23,14 +23,14 @@
         <ant antfile="build.xml" target="build" dir="ArrayV"/>
     </target>
     <target depends="init,build-arrayv" name="build" description="Builds a JAR into the dist directory">
-        <echo message="${ant.project.name}: ${ant.file}"/>
+        <echo level="info" message="${ant.project.name}: ${ant.file}"/>
         <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
             <src path="src/main/java"/>
             <classpath refid="classpath"/>
         </javac>
         <jar destfile="dist/ArrayV-Extra-Sorts.jar">
             <manifest>
-                <attribute name="Main-Class" value="ArrayVExtraSortsWarning"/>
+                <attribute name="Main-Class" value="io.github.arrayv.extrasorts.ArrayVExtraSortsWarning"/>
             </manifest>
             <fileset dir="bin"/>
         </jar>

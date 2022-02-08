@@ -1,3 +1,5 @@
+package io.github.arrayv.extrasorts;
+
 import java.awt.Desktop;
 import java.net.URI;
 import java.net.URISyntaxException;
