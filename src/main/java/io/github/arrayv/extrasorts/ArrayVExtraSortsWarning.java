@@ -15,7 +15,7 @@ public class ArrayVExtraSortsWarning {
 
     static {
         try {
-            INSTALL_GUIDE_URI =new URI("https://github.com/Gaming32/ArrayV-Extra-Sorts#installing");
+            INSTALL_GUIDE_URI = new URI("https://github.com/Gaming32/ArrayV-Extra-Sorts#installing");
         } catch (URISyntaxException e) {
             throw new Error(e);
         }
