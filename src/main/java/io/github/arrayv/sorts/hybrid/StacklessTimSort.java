@@ -1,8 +1,7 @@
 package io.github.arrayv.sorts.hybrid;
 
-import sorts.insert.BinaryInsertionSort;
-import sorts.templates.Sort;
 import main.ArrayVisualizer;
+import sorts.templates.Sort;
 
 /*
  *
