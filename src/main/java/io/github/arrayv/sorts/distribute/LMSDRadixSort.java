@@ -30,7 +30,6 @@ final public class LMSDRadixSort extends Sort {
         this.setRunAllSortsName("L/MSD Radix Sort");
         this.setRunSortName("Least/Most Significant Digit Radix Sort");
         this.setCategory("Distribution Sorts");
-        this.setComparisonBased(false);
         this.setBucketSort(true);
         this.setRadixSort(true);
         this.setUnreasonablySlow(false);

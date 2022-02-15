@@ -41,7 +41,6 @@ final public class StableQuickSortMiddlePivot extends Sort {
         this.setRunAllSortsName("Stable Quick Sort (Middle Pivot)");
         this.setRunSortName("Stable Quicksort (Middle Pivot)");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

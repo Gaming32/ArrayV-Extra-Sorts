@@ -19,7 +19,6 @@ final public class MobMergeSort extends Sort {
         this.setRunAllSortsName("Mob Merge Sort");
         this.setRunSortName("Mob Merge Sort");
         this.setCategory("Merge Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

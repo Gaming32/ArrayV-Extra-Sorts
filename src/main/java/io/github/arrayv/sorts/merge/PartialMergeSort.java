@@ -37,7 +37,6 @@ final public class PartialMergeSort extends Sort {
         this.setRunAllSortsName("Partial Merge Sort");
         this.setRunSortName("Partial Mergesort");
         this.setCategory("Merge Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -11,7 +11,6 @@ final public class QuickSPSort extends GrailSorting {
         this.setRunAllSortsName("Quick Sandpaper Sort");
         this.setRunSortName("Quick Sandpapersort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

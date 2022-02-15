@@ -24,7 +24,6 @@ public final class GrateSort extends Sort {
 		setRunAllSortsName("Grate Sort");
 		setRunSortName("Gratesort");
 		setCategory("Exchange Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(true);

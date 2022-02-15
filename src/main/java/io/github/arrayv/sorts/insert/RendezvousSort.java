@@ -11,7 +11,6 @@ final public class RendezvousSort extends Sort {
         this.setRunAllSortsName("Lancewer's Rendezvous Sort");
         this.setRunSortName("Lancewer's Rendezvous Sort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

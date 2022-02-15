@@ -23,7 +23,6 @@ final public class TransposeModuloWeaveMergeSort extends Sort {
         this.setRunAllSortsName("Transpose by Modulo Weave Merge Sort");
         this.setRunSortName("Transpose by Modulo Weave Mergesort");
         this.setCategory("Merge Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -32,7 +32,6 @@ final public class MagneticaQuickSort extends Sort {
         this.setRunAllSortsName("Magnetica Quick Sort");
         this.setRunSortName("Magnetica Quicksort");
         this.setCategory("Quick Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

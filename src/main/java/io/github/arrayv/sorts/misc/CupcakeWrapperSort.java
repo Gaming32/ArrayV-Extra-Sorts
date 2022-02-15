@@ -19,7 +19,6 @@ final public class CupcakeWrapperSort extends Sort {
         this.setRunAllSortsName("Cupcake Wrapper Sort");
         this.setRunSortName("Cupcake Wrapper Sort");
         this.setCategory("Miscellaneous Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

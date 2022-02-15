@@ -15,7 +15,6 @@ public final class ReverseBubbleSort extends Sort {
         this.setRunAllSortsName("Reverse Bubble Sort");
         this.setRunSortName("Reverse Bubblesort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

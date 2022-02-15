@@ -40,7 +40,6 @@ final public class ReverseLazyStableSort extends Sort {
         this.setRunAllSortsName("Reverse Lazy Stable Sort");
         this.setRunSortName("Reverse Lazy Stable Sort");
         this.setCategory("Merge Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

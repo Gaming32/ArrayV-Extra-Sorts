@@ -12,7 +12,6 @@ final public class OutOfPlaceWeaveMergeSort extends Sort {
         this.setRunAllSortsName("Out-of-Place Weave Merge (by Control)");
         this.setRunSortName("Out-of-Place Weave Merge");
         this.setCategory("Merge Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -27,7 +27,6 @@ public final class AdaptiveMOMQuickSort extends Sort {
         this.setRunAllSortsName("Adaptive Median-of-Medians Quick Sort");
         this.setRunSortName("Adaptive Median-of-Medians Quicksort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

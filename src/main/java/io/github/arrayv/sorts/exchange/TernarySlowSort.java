@@ -15,7 +15,6 @@ public final class TernarySlowSort extends Sort {
         setRunAllSortsName("Ternary Slow Sort");
         setRunSortName("Ternary Slowsort");
         setCategory("Impractical Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(true);

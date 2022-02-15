@@ -19,7 +19,6 @@ final public class ReversePushSort extends Sort {
         this.setRunAllSortsName("Reverse Push Sort");
         this.setRunSortName("Reverse Pushsort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

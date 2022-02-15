@@ -19,7 +19,6 @@ public final class CiuraCocktailShellSort extends Sort {
         this.setRunAllSortsName("Cocktail Shell Sort (Ciura Gaps)");
         this.setRunSortName("Cocktail Shellsort (Ciura Gaps)");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

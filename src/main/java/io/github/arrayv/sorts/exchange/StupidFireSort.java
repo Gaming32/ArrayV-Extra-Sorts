@@ -28,7 +28,6 @@ final public class StupidFireSort extends Sort {
 		this.setRunAllSortsName("Stupid Fire Sort");
 		this.setRunSortName("Stupid Firesort");
 		this.setCategory("Impractical Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(true);

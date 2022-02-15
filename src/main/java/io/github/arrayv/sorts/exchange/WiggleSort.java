@@ -23,7 +23,6 @@ public final class WiggleSort extends Sort {
 		setRunAllSortsName("Wiggle Sort");
 		setRunSortName("Wigglesort");
 		setCategory("Exchange Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(false);

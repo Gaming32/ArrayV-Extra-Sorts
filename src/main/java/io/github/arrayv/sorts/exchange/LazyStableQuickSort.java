@@ -44,7 +44,6 @@ final public class LazyStableQuickSort extends Sort {
         this.setRunAllSortsName("Lazy Stable Quick Sort");
         this.setRunSortName("Lazy Stable Quicksort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

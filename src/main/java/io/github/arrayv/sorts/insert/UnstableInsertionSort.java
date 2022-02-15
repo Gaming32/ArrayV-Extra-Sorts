@@ -12,7 +12,6 @@ final public class UnstableInsertionSort extends Sort {
         this.setRunAllSortsName("Unstable Insertion Sort");
         this.setRunSortName("Unstable Insertion Sort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

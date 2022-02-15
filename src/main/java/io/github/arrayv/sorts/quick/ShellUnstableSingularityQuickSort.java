@@ -24,7 +24,6 @@ final public class ShellUnstableSingularityQuickSort extends Sort {
         this.setRunAllSortsName("Shell Unstable Singularity Quick Sort");
         this.setRunSortName("Shell Unstable Singularity Quicksort");
         this.setCategory("Quick Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -42,7 +42,6 @@ final public class BlockSelectionMergeSort extends Sort {
         this.setRunAllSortsName("Block Selection Merge Sort");
         this.setRunSortName("Block Selection Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

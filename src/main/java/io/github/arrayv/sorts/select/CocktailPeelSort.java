@@ -19,7 +19,6 @@ final public class CocktailPeelSort extends Sort {
         this.setRunAllSortsName("Cocktail Peel Sort");
         this.setRunSortName("Cocktail Peelsort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

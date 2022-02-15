@@ -22,7 +22,6 @@ public final class ChinottoSort extends Sort {
 		setRunAllSortsName("Chinotto Sort");
 		setRunSortName("Chinottosort");
 		setCategory("Exchange Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(false);

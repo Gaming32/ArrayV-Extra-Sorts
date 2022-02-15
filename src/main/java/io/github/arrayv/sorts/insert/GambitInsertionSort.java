@@ -24,7 +24,6 @@ public final class GambitInsertionSort extends Sort {
 		setRunAllSortsName("Gambit Insertion Sort");
 		setRunSortName("Gambit Insertsort");
 		setCategory("Insertion Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(false);

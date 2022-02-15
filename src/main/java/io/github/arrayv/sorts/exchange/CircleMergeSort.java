@@ -23,7 +23,6 @@ final public class CircleMergeSort extends IterativeCircleSorting {
         this.setRunAllSortsName("Circle Merge Sort");
         this.setRunSortName("Circle Mergesort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

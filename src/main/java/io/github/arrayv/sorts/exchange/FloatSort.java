@@ -16,7 +16,6 @@ public final class FloatSort extends Sort {
         setRunAllSortsName("Float Sort");
         setRunSortName("Float Sort");
         setCategory("Exchange Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(true);

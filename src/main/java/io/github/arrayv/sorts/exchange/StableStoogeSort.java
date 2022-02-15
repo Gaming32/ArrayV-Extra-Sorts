@@ -11,7 +11,6 @@ final public class StableStoogeSort extends Sort {
         this.setRunAllSortsName("Stable Stooge Sort");
         this.setRunSortName("Stable Stoogesort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

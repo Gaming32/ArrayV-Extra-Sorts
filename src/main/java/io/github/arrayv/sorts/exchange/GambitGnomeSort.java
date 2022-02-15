@@ -12,7 +12,6 @@ public final class GambitGnomeSort extends Sort {
         setRunAllSortsName("Gambit Gnome Sort");
         setRunSortName("Gambit Gnomesort");
         setCategory("Exchange Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(false);

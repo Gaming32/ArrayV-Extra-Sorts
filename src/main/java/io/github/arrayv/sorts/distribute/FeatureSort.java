@@ -35,7 +35,6 @@ final public class FeatureSort extends Sort {
         this.setRunAllSortsName("Feature Sort");
         this.setRunSortName("Feature Sort");
         this.setCategory("Distribution Sorts");
-        this.setComparisonBased(false);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

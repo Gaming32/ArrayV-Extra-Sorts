@@ -19,7 +19,6 @@ final public class NoisySort extends Sort {
         this.setRunAllSortsName("Noisy Sort");
         this.setRunSortName("Noisesort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

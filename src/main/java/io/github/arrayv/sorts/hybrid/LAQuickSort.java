@@ -30,7 +30,6 @@ final public class LAQuickSort extends Sort {
         this.setRunAllSortsName("Logarithmic Average QuickSort");
         this.setRunSortName("Logarithmic Average QuickSort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

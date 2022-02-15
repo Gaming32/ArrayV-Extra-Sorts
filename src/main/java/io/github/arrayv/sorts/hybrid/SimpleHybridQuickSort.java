@@ -17,7 +17,6 @@ public final class SimpleHybridQuickSort extends Sort {
         setRunAllSortsName("Simple Hybrid Quick Sort");
         setRunSortName("Simple Hybrid Quicksort");
         setCategory("Hybrid Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(false);

@@ -19,7 +19,6 @@ final public class ShellLowSort extends Sort {
         this.setRunAllSortsName("Shell Sort (Low Prime)");
         this.setRunSortName("Shellsort (Low Prime)");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

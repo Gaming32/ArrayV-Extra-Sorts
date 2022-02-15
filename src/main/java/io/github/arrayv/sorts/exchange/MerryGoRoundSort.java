@@ -17,7 +17,6 @@ final public class MerryGoRoundSort extends Sort {
 		this.setRunAllSortsName("Merry-Go-Round Sort");
 		this.setRunSortName("Merry-Go-Round Sort");
 		this.setCategory("Impractical Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(true);

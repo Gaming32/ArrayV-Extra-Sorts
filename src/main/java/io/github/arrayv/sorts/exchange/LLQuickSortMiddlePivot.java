@@ -11,7 +11,6 @@ final public class LLQuickSortMiddlePivot extends Sort {
         this.setRunAllSortsName("Quick Sort, Left/Left Pointers (Middle Pivot)");
         this.setRunSortName("Left/Left Quicksort (Middle Pivot)");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

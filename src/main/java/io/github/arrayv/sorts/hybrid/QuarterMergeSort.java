@@ -42,7 +42,6 @@ final public class QuarterMergeSort extends Sort {
         this.setRunAllSortsName("Quarter Merge Sort");
         this.setRunSortName("Quarter Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

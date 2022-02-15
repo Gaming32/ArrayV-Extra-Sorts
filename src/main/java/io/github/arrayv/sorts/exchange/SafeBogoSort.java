@@ -39,7 +39,6 @@ final public class SafeBogoSort extends Sort {
         this.setRunAllSortsName("Safe Bogo Sort");
         this.setRunSortName("Safe Bogosort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

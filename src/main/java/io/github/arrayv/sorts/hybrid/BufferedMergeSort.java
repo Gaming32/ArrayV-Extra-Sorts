@@ -43,7 +43,6 @@ final public class BufferedMergeSort extends Sort {
         this.setRunAllSortsName("Buffered Merge Sort");
         this.setRunSortName("Buffered Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

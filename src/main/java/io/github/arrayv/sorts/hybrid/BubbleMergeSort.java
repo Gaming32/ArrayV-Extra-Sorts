@@ -26,7 +26,6 @@ public class BubbleMergeSort extends Sort {
         this.setRunAllSortsName("Bubble Merge Sort");
         this.setRunSortName("Bubble Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

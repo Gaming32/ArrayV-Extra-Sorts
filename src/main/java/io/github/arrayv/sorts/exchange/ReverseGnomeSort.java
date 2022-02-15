@@ -38,7 +38,6 @@ public final class ReverseGnomeSort extends Sort {
         this.setRunAllSortsName("Reverse Gnome Sort");
         this.setRunSortName("Reverse Gnomesort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

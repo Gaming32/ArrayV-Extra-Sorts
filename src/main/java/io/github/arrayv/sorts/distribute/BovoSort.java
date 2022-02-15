@@ -19,7 +19,6 @@ public final class BovoSort extends BogoSorting {
         this.setRunAllSortsName("Bovo Sort");
         this.setRunSortName("Bovosort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

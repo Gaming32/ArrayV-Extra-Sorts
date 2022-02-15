@@ -36,7 +36,6 @@ final public class IndexMergeSort extends Sort {
 		this.setRunAllSortsName("Index Merge Sort");
 		this.setRunSortName("Index Mergesort");
 		this.setCategory("Merge Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

@@ -15,7 +15,6 @@ public final class PatternDefeatingGnomeSort extends Sort {
         this.setRunAllSortsName("Pattern-Defeating Gnome Sort");
         this.setRunSortName("Pattern-Defeating Gnomesort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

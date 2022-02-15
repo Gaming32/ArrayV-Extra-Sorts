@@ -19,7 +19,6 @@ final public class ReversePeelSort extends Sort {
         this.setRunAllSortsName("Reverse Peel Sort");
         this.setRunSortName("Reverse Peelsort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

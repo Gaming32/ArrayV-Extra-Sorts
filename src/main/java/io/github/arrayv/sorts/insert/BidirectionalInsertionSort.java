@@ -37,7 +37,6 @@ final public class BidirectionalInsertionSort extends Sort {
         this.setRunAllSortsName("Bidirectional Insertion Sort");
         this.setRunSortName("Bidirectional Insertsort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -36,7 +36,6 @@ public class BinaryPDMergeSort extends OptimizedPDMergeSort {
         this.setRunAllSortsName("Binary Pattern-Defeating Merge Sort");
         this.setRunSortName("Binary Pattern-Defeating Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

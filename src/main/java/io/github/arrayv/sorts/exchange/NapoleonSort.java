@@ -11,7 +11,6 @@ final public class NapoleonSort extends Sort {
         this.setRunAllSortsName("Napoleon Sort");
         this.setRunSortName("Napoleon sort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

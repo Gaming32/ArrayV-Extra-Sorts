@@ -15,7 +15,6 @@ public final class PDExponentialInsertionSort extends Sort {
         this.setRunAllSortsName("Pattern-Defeating Exponential Insertion Sort");
         this.setRunSortName("Pattern-Defeating Exponential Insertsort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -19,7 +19,6 @@ final public class ClamberSort extends Sort {
         this.setRunAllSortsName("Clamber Sort");
         this.setRunSortName("Clambersort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

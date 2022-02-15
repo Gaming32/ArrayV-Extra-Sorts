@@ -36,7 +36,6 @@ public class ImprovedMultiSelectionSort extends MultiSelectionSort {
         this.setRunAllSortsName("Improved Multi Selection Sort");
         this.setRunSortName("Improved Multi Selectionsort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

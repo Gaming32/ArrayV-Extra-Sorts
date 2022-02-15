@@ -17,7 +17,6 @@ final public class OddEvenWeaveLowSort extends Sort {
 		this.setRunAllSortsName("Odd-Even Weave Sort (Low Prime)");
 		this.setRunSortName("Odd-Even Weave (Low Prime)");
 		this.setCategory("Exchange Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

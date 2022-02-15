@@ -41,7 +41,6 @@ final public class RoomSort extends Sort {
         this.setRunAllSortsName("Room Sort");
         this.setRunSortName("Roomsort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

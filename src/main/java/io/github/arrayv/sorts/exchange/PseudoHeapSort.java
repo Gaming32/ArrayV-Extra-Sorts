@@ -22,7 +22,6 @@ public final class PseudoHeapSort extends Sort {
 		setRunAllSortsName("Iterative Pseudo-Heap Sort");
 		setRunSortName("Iterative Pseudo-Heapsort");
 		setCategory("Exchange Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(false);

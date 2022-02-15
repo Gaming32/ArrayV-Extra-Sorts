@@ -19,7 +19,6 @@ final public class AsteraceaeSort extends Sort {
         this.setRunAllSortsName("Asteraceae Sort");
         this.setRunSortName("Asteraceae Sort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

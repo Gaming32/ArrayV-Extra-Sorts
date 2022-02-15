@@ -18,7 +18,6 @@ final public class XSort extends Sort {
 		this.setRunAllSortsName("X Pattern Sort");
 		this.setRunSortName("X Pattern Sort");
 		this.setCategory("Impractical Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(true);

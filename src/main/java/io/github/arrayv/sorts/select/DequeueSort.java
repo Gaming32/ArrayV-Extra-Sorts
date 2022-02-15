@@ -39,7 +39,6 @@ final public class DequeueSort extends Sort {
         this.setRunAllSortsName("Dequeue Sort");
         this.setRunSortName("Dequeuesort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

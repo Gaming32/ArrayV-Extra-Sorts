@@ -19,7 +19,6 @@ final public class OptimizedBubbleBogoSort extends BogoSorting {
         this.setRunAllSortsName("Optimized Bubble Bogo Sort");
         this.setRunSortName("Optimized Bubble Bogosort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

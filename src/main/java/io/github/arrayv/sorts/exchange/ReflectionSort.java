@@ -25,7 +25,6 @@ final public class ReflectionSort extends Sort {
 		this.setRunAllSortsName("Reflection Sort");
 		this.setRunSortName("Reflection Sort");
 		this.setCategory("Impractical Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(true);

@@ -19,7 +19,6 @@ public final class OptimizedReverseGrateSort extends Sort {
 		setRunAllSortsName("Optimized Reverse Grate Sort");
 		setRunSortName("Optimized Reverse Gratesort");
 		setCategory("Exchange Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(true);

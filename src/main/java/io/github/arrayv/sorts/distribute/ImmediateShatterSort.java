@@ -37,7 +37,6 @@ final public class ImmediateShatterSort extends ShatterSorting {
         this.setRunAllSortsName("Immediate Shatter Sort");
         this.setRunSortName("Immediate Shatter Sort");
         this.setCategory("Distribution Sorts");
-        this.setComparisonBased(false);
         this.setBucketSort(false); // It is a bucket sort, but there is no user input
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

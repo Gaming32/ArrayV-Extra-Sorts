@@ -19,7 +19,6 @@ final public class ShellHighSort extends Sort {
         this.setRunAllSortsName("Shell Sort (High Prime)");
         this.setRunSortName("Shellsort (High Prime)");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

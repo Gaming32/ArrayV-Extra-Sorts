@@ -16,7 +16,6 @@ public final class FibonacciGnomeSort extends Sort {
         this.setRunAllSortsName("Fibonacci Gnome Sort");
         this.setRunSortName("Fibonacci Gnome Sort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -17,7 +17,6 @@ final public class SplitCenterSort extends Sort {
 		this.setRunAllSortsName("Split Center Sort");
 		this.setRunSortName("Split Center Sort");
 		this.setCategory("Exchange Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

@@ -37,7 +37,6 @@ final public class StacklessTimSort extends Sort {
 		this.setRunAllSortsName("Stackless Tim Sort");
 		this.setRunSortName("Stackless Timsort");
 		this.setCategory("Hybrid Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

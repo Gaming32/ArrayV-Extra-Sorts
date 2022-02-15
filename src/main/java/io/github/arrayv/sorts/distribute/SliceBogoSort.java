@@ -14,7 +14,6 @@ public final class SliceBogoSort extends BogoSorting {
         this.setRunAllSortsName("Slice Bogo Sort");
         this.setRunSortName("Slice Bogosort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

@@ -37,7 +37,6 @@ final public class OptimizedIndexSort extends Sort {
         this.setRunAllSortsName("Optimized Index Sort");
         this.setRunSortName("Optimized Indexsort");
         this.setCategory("Distribution Sorts");
-        this.setComparisonBased(false);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

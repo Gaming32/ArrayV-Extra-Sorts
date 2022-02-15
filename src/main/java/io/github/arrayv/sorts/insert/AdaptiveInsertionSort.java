@@ -11,7 +11,6 @@ final public class AdaptiveInsertionSort extends Sort {
         this.setRunAllSortsName("Adaptive Insertion Sort");
         this.setRunSortName("Adaptive Insertsort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -27,7 +27,6 @@ final public class UnstableSingularityQuickSort extends Sort {
         this.setRunAllSortsName("Unstable Singularity Quick Sort");
         this.setRunSortName("Unstable Singularity Quicksort");
         this.setCategory("Quick Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

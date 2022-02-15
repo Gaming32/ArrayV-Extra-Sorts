@@ -48,7 +48,6 @@ public final class ReverseSelectionSort extends Sort {
         this.setRunAllSortsName("Reverse Selection Sort");
         this.setRunSortName("Reverse Selection Sort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

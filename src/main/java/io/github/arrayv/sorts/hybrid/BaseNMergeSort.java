@@ -42,7 +42,6 @@ final public class BaseNMergeSort extends Sort {
         this.setRunAllSortsName("Base-N Merge Sort, 4 Bases");
         this.setRunSortName("Base-N Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(true);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -23,7 +23,6 @@ final public class HeavyHeapSort extends HeapSorting {
         this.setRunAllSortsName("Heavy Heap Sort");
         this.setRunSortName("Heavy Heapsort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

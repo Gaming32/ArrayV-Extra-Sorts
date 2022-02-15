@@ -37,7 +37,6 @@ final public class Split16Merge extends Sort {
         this.setRunAllSortsName("Split-16 Merge Sort");
         this.setRunSortName("Split-16 Mergesort");
         this.setCategory("Merge Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

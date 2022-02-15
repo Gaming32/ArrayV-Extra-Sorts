@@ -12,7 +12,6 @@ public final class AnarchySort extends Sort {
         setRunAllSortsName("Anarchy Sort (By Lancewer & McDude_73)");
         setRunSortName("Anarchy Sort");
         setCategory("Selection Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(true);

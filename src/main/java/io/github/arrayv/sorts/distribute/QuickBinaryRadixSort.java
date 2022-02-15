@@ -37,7 +37,6 @@ final public class QuickBinaryRadixSort extends Sort {
         this.setRunAllSortsName("Quick Binary Radix Sort");
         this.setRunSortName("Quick Binary Radix Sort");
         this.setCategory("Distribution Sorts");
-        this.setComparisonBased(false);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

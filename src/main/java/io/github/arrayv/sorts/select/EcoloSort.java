@@ -19,7 +19,6 @@ final public class EcoloSort extends Sort {
         this.setRunAllSortsName("Ecolo Sort");
         this.setRunSortName("Ecolosort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -19,7 +19,6 @@ public final class OptimizedGrateSort extends Sort {
 		setRunAllSortsName("PCBoy's Optimized Grate Sort");
 		setRunSortName("Optimized Gratesort");
 		setCategory("Exchange Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(true);

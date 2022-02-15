@@ -38,7 +38,6 @@ final public class IndexQuickSort extends Sort {
         this.setRunAllSortsName("Index Quick Sort");
         this.setRunSortName("Index Quicksort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

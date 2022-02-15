@@ -15,7 +15,6 @@ public final class SinkingMergeSortRecursive extends Sort {
         this.setRunAllSortsName("Recursive Sinking Merge Sort");
         this.setRunSortName("Recursive Sinking Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

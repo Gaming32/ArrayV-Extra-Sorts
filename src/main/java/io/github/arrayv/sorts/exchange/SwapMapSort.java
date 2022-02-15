@@ -39,7 +39,6 @@ final public class SwapMapSort extends Sort {
         this.setRunAllSortsName("Swap Map Sort");
         this.setRunSortName("Swap Map Sort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

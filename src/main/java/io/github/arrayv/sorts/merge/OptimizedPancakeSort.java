@@ -36,7 +36,6 @@ final public class OptimizedPancakeSort extends Sort {
 		this.setRunAllSortsName("Optimized Pancake Sort");
 		this.setRunSortName("Optimized Pancake Sort");
 		this.setCategory("Merge Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

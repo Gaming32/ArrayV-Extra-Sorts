@@ -31,7 +31,6 @@ public final class PCBoysParShellSort extends Sort {
 		this.setRunAllSortsName("PCBoy's Par(X) Shell Sort");
 		this.setRunSortName("PCBoy's Par(X) Shellsort");
 		this.setCategory("Insertion Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

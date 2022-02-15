@@ -19,7 +19,6 @@ final public class OptimizedReverseSandpaperSort extends Sort {
         this.setRunAllSortsName("Optimized Reverse Sandpaper Sort");
         this.setRunSortName("Optimized Reverse Sandpapersort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

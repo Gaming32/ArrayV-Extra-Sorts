@@ -19,7 +19,6 @@ final public class FallSort extends Sort {
         this.setRunAllSortsName("Falling Sort");
         this.setRunSortName("Fallsort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

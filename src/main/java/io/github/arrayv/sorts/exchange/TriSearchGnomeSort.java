@@ -23,7 +23,6 @@ public final class TriSearchGnomeSort extends Sort {
         this.setRunAllSortsName("TriSearch Gnome Sort");
         this.setRunSortName("TriSearch Gnomesort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

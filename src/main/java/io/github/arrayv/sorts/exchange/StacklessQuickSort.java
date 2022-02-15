@@ -37,7 +37,6 @@ final public class StacklessQuickSort extends Sort {
         this.setRunAllSortsName("Stackless Quick Sort");
         this.setRunSortName("Stackless Quicksort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

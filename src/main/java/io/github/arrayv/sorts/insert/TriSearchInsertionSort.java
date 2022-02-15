@@ -27,7 +27,6 @@ final public class TriSearchInsertionSort extends Sort {
         this.setRunAllSortsName("thatsOven's TriSearch Insertion Sort");
         this.setRunSortName("thatsOven's TriSearch Insertion Sort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

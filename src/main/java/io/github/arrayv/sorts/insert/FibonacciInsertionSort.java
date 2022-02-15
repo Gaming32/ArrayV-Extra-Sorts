@@ -34,7 +34,6 @@ final public class FibonacciInsertionSort extends Sort {
         this.setRunAllSortsName("Fibonacci Insertion Sort");
         this.setRunSortName("Fibonacci Insertion Sort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

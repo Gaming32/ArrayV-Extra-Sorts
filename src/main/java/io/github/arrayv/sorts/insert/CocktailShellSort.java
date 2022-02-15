@@ -18,7 +18,6 @@ public final class CocktailShellSort extends Sort {
         this.setRunAllSortsName("Cocktail Shell Sort");
         this.setRunSortName("Cocktail Shellsort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

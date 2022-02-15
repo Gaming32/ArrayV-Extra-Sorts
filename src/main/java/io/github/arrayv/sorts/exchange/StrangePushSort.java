@@ -19,7 +19,6 @@ final public class StrangePushSort extends Sort {
         this.setRunAllSortsName("Strange Push Sort");
         this.setRunSortName("Strange Pushsort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

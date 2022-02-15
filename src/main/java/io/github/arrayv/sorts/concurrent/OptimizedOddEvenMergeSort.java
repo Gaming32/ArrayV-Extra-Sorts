@@ -37,7 +37,6 @@ final public class OptimizedOddEvenMergeSort extends Sort {
         this.setRunAllSortsName("Optimized Odd-Even Merge Sort");
         this.setRunSortName("Optimized Odd-Even Mergesort");
         this.setCategory("Concurrent Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

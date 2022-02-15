@@ -14,7 +14,6 @@ final public class ApollyonSort extends CircleSorting {
         this.setRunAllSortsName("Apollyon Sort");
         this.setRunSortName("Apollyon Sort");
         this.setCategory("Concurrent Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

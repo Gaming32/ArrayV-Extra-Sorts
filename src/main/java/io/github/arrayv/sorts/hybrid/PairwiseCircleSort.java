@@ -39,7 +39,6 @@ final public class PairwiseCircleSort extends Sort {
         this.setRunAllSortsName("Pairwise-Circle Sort");
         this.setRunSortName("Pairwise-Circle Sort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

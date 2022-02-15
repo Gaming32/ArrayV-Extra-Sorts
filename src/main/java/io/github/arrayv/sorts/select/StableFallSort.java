@@ -19,7 +19,6 @@ final public class StableFallSort extends Sort {
         this.setRunAllSortsName("Stable Falling Sort");
         this.setRunSortName("Stable Fallsort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

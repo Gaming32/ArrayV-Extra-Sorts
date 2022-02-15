@@ -24,7 +24,6 @@ public final class CocktailGrateSort extends Sort {
 		setRunAllSortsName("Cocktail Grate Sort");
 		setRunSortName("Cocktail Gratesort");
 		setCategory("Exchange Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(true);

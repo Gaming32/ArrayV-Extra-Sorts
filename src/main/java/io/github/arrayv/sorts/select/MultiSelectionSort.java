@@ -37,7 +37,6 @@ public class MultiSelectionSort extends Sort {
         this.setRunAllSortsName("Multi Selection Sort");
         this.setRunSortName("Multi Selectionsort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

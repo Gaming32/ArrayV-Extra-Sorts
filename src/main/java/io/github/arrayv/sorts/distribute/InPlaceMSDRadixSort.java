@@ -37,7 +37,6 @@ final public class InPlaceMSDRadixSort extends Sort {
         this.setRunAllSortsName("In-Place MSD Radix Sort, Base 4");
         this.setRunSortName("In-Place MSD Radixsort");
         this.setCategory("Distribution Sorts");
-        this.setComparisonBased(false);
         this.setBucketSort(true);
         this.setRadixSort(true);
         this.setUnreasonablySlow(false);

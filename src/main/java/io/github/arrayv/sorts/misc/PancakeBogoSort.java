@@ -15,7 +15,6 @@ public final class PancakeBogoSort extends BogoSorting {
         setRunAllSortsName("Pancake Bogo Sort");
         setRunSortName("Pancake Bogosort");
         setCategory("Impractical Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(true);

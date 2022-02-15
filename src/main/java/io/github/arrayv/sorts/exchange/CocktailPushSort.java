@@ -19,7 +19,6 @@ final public class CocktailPushSort extends Sort {
         this.setRunAllSortsName("Cocktail Push Sort");
         this.setRunSortName("Cocktail Pushsort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

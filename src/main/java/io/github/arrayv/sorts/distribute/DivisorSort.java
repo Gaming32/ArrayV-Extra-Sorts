@@ -40,7 +40,6 @@ final public class DivisorSort extends Sort {
         this.setRunAllSortsName("Divisor Sort");
         this.setRunSortName("Divisor Sort");
         this.setCategory("Distribution Sorts");
-        this.setComparisonBased(false);
         this.setBucketSort(true);
         this.setRadixSort(true);
         this.setUnreasonablySlow(false);

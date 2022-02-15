@@ -40,7 +40,6 @@ final public class HeadPullSort extends Sort {
 		this.setRunAllSortsName("Head Pull Sort");
 		this.setRunSortName("Head Pull Sort");
 		this.setCategory("Impractical Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(true);

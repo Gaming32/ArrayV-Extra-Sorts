@@ -39,7 +39,6 @@ final public class QueueSort extends Sort {
         this.setRunAllSortsName("Queue Sort");
         this.setRunSortName("Queuesort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

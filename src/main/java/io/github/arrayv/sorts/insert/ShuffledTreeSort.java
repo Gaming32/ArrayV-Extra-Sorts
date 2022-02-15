@@ -39,7 +39,6 @@ final public class ShuffledTreeSort extends Sort {
 		this.setRunAllSortsName("Shuffled Tree Sort");
 		this.setRunSortName("Shuffled Treesort");
 		this.setCategory("Insertion Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

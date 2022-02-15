@@ -16,7 +16,6 @@ final public class MatrixSortParallel extends Sort {
         this.setRunAllSortsName("Parallel Matrix Sort");
         this.setRunSortName("Parallel Matrix Sort");
         this.setCategory("Concurrent Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -38,7 +38,6 @@ final public class LazierSort extends Sort {
         this.setRunAllSortsName("Lazier Stable Sort");
         this.setRunSortName("Lazier Sort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

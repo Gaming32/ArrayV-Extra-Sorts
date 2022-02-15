@@ -12,7 +12,6 @@ final public class NaturalMergeSort extends Sort {
         this.setRunAllSortsName("Natural Merge Sort");
         this.setRunSortName("Natural Merge Sort");
         this.setCategory("Merge Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

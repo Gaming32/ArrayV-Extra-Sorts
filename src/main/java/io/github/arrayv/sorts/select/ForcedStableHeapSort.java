@@ -15,7 +15,6 @@ public final class ForcedStableHeapSort extends Sort {
         this.setRunAllSortsName("Forced Stable Heap Sort");
         this.setRunSortName("Forced Stable Heapsort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

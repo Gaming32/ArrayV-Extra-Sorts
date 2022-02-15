@@ -19,7 +19,6 @@ public final class BubblescanQuickSort extends Sort {
         this.setRunAllSortsName("Bubblescan Quick Sort");
         this.setRunSortName("Bubblescan Quicksort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

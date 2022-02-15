@@ -42,7 +42,6 @@ public class ThreadedPDMergeSort extends BinaryPDMergeSort {
         this.setRunAllSortsName("Threaded Pattern-Defeating Merge Sort");
         this.setRunSortName("Threaded Pattern-Defeating Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

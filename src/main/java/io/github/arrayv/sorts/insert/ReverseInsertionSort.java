@@ -22,7 +22,6 @@ public final class ReverseInsertionSort extends Sort {
 		this.setRunAllSortsName("Reverse Insertion Sort");
 		this.setRunSortName("Reverse Insertsort");
 		this.setCategory("Insertion Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

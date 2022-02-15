@@ -15,7 +15,6 @@ public final class SinkingMergeSortIterative extends Sort {
         this.setRunAllSortsName("Iterative Sinking Merge Sort");
         this.setRunSortName("Iterative Sinking Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

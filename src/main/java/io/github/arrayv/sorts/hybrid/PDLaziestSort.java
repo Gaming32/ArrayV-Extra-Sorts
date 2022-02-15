@@ -16,7 +16,6 @@ public final class PDLaziestSort extends Sort {
         this.setRunAllSortsName("Pattern-Defeating Laziest Stable Sort");
         this.setRunSortName("Pattern-Defeating Laziest Sort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

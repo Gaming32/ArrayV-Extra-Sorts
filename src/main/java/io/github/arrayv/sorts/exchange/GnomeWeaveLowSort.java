@@ -44,7 +44,6 @@ final public class GnomeWeaveLowSort extends Sort {
 		this.setRunAllSortsName("Gnome Weave Sort (Low Prime)");
 		this.setRunSortName("Gnome Weave (Low Prime)");
 		this.setCategory("Exchange Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

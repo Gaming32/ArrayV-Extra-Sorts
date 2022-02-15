@@ -19,7 +19,6 @@ final public class TumbleweedSort extends Sort {
         this.setRunAllSortsName("Tumbleweed Sort");
         this.setRunSortName("Tumbleweed Sort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

@@ -38,7 +38,6 @@ final public class MedianOfSixteenAdaptiveQuickSort extends Sort {
         this.setRunAllSortsName("Median-Of-16 Adaptive QuickSort");
         this.setRunSortName("Median-Of-16 Adaptive QuickSort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

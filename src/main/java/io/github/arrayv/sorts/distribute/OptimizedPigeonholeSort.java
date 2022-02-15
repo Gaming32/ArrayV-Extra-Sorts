@@ -37,7 +37,6 @@ final public class OptimizedPigeonholeSort extends Sort {
         this.setRunAllSortsName("Optimized Pigeonhole Sort");
         this.setRunSortName("Optimized Pigeonhole Sort");
         this.setCategory("Distribution Sorts");
-        this.setComparisonBased(false);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

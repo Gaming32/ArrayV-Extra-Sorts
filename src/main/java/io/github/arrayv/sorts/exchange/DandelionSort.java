@@ -16,7 +16,6 @@ public final class DandelionSort extends Sort {
         setRunAllSortsName("Dandelion Sort");
         setRunSortName("Dandelion Sort");
         setCategory("Exchange Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(false);

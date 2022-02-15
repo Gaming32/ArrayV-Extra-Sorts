@@ -19,7 +19,6 @@ public final class CospoSort extends BogoSorting {
         this.setRunAllSortsName("Cospo Sort");
         this.setRunSortName("Cosposort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

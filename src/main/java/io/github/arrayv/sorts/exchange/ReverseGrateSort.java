@@ -24,7 +24,6 @@ public final class ReverseGrateSort extends Sort {
 		setRunAllSortsName("Reverse Grate Sort");
 		setRunSortName("Reverse Gratesort");
 		setCategory("Exchange Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(true);

@@ -11,7 +11,6 @@ public final class ExponentialInsertionSort extends Sort {
         this.setRunAllSortsName("Exponential Insertion Sort");
         this.setRunSortName("Exponential Insertsort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

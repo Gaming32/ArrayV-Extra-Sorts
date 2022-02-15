@@ -19,7 +19,6 @@ final public class OptimizedZipperSort extends Sort {
         this.setRunAllSortsName("Optimized Zipper Sort");
         this.setRunSortName("Optimized Zippersort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

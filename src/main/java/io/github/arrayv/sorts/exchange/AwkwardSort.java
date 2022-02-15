@@ -15,7 +15,6 @@ public final class AwkwardSort extends Sort {
         setRunAllSortsName("Awkward Sort");
         setRunSortName("Awkward Sort");
         setCategory("Impractical Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(true);

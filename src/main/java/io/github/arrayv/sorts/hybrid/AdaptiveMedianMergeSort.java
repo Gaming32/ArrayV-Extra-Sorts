@@ -18,7 +18,6 @@ public final class AdaptiveMedianMergeSort extends Sort {
         this.setRunAllSortsName("Adaptive Median Merge Sort");
         this.setRunSortName("Adaptive Median Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

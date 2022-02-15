@@ -36,7 +36,6 @@ final public class SandpaperSort extends Sort {
         this.setRunAllSortsName("Sandpaper Sort");
         this.setRunSortName("Sandpapersort");
         this.setCategory("Selection Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

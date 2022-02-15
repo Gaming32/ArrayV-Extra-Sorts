@@ -19,7 +19,6 @@ final public class MarkovSort extends BogoSorting {
         this.setRunAllSortsName("Markov Sort");
         this.setRunSortName("Markov sort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

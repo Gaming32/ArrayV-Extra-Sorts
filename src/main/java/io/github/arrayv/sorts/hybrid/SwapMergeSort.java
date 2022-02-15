@@ -40,7 +40,6 @@ final public class SwapMergeSort extends Sort {
         this.setRunAllSortsName("SwapMerge Sort");
         this.setRunSortName("SwapMergeSort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

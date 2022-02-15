@@ -39,7 +39,6 @@ public class OptimizedPDMergeSort extends PDMergeSort {
         this.setRunAllSortsName("Optimized Pattern-Defeating Merge Sort");
         this.setRunSortName("Optimized Pattern-Defeating Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

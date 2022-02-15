@@ -11,7 +11,6 @@ final public class PatternDefeatingInsertionSort extends Sort {
         this.setRunAllSortsName("Pattern-Defeating Insertion Sort");
         this.setRunSortName("Pattern-Defeating Insertsort");
         this.setCategory("Insertion Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

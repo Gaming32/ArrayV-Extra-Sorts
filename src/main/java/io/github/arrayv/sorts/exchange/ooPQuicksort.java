@@ -12,7 +12,6 @@ final public class ooPQuicksort extends Sort {
         this.setRunAllSortsName("Out of Place Stable QuickSort (by Control)");
         this.setRunSortName("Out of Place Stable Quicksort");
         this.setCategory("Exchange Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

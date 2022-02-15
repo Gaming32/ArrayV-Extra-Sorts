@@ -26,7 +26,6 @@ final public class UnboundedSingularityQuickSort extends Sort {
         this.setRunAllSortsName("Unbounded Singularity Quick Sort");
         this.setRunSortName("Unbounded Singularity Quicksort");
         this.setCategory("Quick Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

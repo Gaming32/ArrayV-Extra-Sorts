@@ -27,7 +27,6 @@ final public class GnomeWeaveHighSort extends Sort {
 		this.setRunAllSortsName("Gnome Weave Sort (High Prime)");
 		this.setRunSortName("Gnome Weave (High Prime)");
 		this.setCategory("Exchange Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(false);

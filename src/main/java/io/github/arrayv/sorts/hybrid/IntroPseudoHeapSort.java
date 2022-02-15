@@ -17,7 +17,6 @@ public final class IntroPseudoHeapSort extends Sort {
 		setRunAllSortsName("Iterative Introspective Pseudo-Heap Sort");
 		setRunSortName("Iterative Introspective Pseudo-Heapsort");
 		setCategory("Hybrid Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(false);

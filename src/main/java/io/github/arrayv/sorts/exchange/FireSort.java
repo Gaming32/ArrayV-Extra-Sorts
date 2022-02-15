@@ -39,7 +39,6 @@ final public class FireSort extends Sort {
 		this.setRunAllSortsName("Fire Sort");
 		this.setRunSortName("Firesort");
 		this.setCategory("Impractical Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(true);

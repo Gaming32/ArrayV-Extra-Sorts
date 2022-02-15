@@ -34,7 +34,6 @@ final public class StableHanoiSort extends Sort {
 		this.setRunAllSortsName("Stable Hanoi Sort");
 		this.setRunSortName("Stable Hanoi sort");
 		this.setCategory("Impractical Sorts");
-		this.setComparisonBased(true);
 		this.setBucketSort(false);
 		this.setRadixSort(false);
 		this.setUnreasonablySlow(true);

@@ -21,7 +21,6 @@ public final class IterativeQuickSort extends Sort {
         setRunAllSortsName("Iterative Quick Sort");
         setRunSortName("Iterative Quicksort");
         setCategory("Exchange Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(false);

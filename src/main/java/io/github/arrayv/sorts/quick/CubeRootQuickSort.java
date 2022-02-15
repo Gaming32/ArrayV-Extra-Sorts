@@ -12,7 +12,6 @@ public class CubeRootQuickSort extends Sort {
         this.setRunAllSortsName("Cube Root Quick Sort");
         this.setRunSortName("Cube Root Quick Sort");
         this.setCategory("Quick Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

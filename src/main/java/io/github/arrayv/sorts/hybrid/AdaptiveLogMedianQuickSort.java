@@ -27,7 +27,6 @@ public final class AdaptiveLogMedianQuickSort extends Sort {
         this.setRunAllSortsName("Adaptive Log-Median Quick Sort");
         this.setRunSortName("Adaptive Log-Median Quicksort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

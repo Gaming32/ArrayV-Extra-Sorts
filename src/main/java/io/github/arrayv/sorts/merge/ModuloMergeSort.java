@@ -11,7 +11,6 @@ final public class ModuloMergeSort extends Sort {
         this.setRunAllSortsName("Modulo Merge Sort");
         this.setRunSortName("Modulo Merge Sort");
         this.setCategory("Merge Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

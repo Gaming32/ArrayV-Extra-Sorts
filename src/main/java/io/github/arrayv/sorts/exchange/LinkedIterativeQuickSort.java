@@ -17,7 +17,6 @@ public final class LinkedIterativeQuickSort extends Sort {
         setRunAllSortsName("Linked Iterative Quick Sort, Left/Right Pointers");
         setRunSortName("Linked Iterative Left/Right Quicksort");
         setCategory("Exchange Sorts");
-        setComparisonBased(true);
         setBucketSort(false);
         setRadixSort(false);
         setUnreasonablySlow(false);

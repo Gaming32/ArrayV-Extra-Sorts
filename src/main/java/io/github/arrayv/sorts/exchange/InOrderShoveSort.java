@@ -19,7 +19,6 @@ final public class InOrderShoveSort extends Sort {
         this.setRunAllSortsName("In-Order Shove Sort");
         this.setRunSortName("In-Order Shove Sort");
         this.setCategory("Impractical Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(true);

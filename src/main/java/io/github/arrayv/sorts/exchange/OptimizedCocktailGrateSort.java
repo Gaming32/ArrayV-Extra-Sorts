@@ -19,7 +19,6 @@ public final class OptimizedCocktailGrateSort extends Sort {
 		setRunAllSortsName("Optimized Cocktail Grate Sort");
 		setRunSortName("Optimized Cocktail Gratesort");
 		setCategory("Exchange Sorts");
-		setComparisonBased(true);
 		setBucketSort(false);
 		setRadixSort(false);
 		setUnreasonablySlow(true);

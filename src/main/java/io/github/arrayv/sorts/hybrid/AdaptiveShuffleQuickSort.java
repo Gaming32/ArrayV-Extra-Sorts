@@ -29,7 +29,6 @@ public final class AdaptiveShuffleQuickSort extends Sort {
         this.setRunAllSortsName("Adaptive Shuffle Quick Sort");
         this.setRunSortName("Adaptive Shuffle Quicksort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);

@@ -44,7 +44,6 @@ final public class OOPBufferedMergeSort extends Sort {
         this.setRunAllSortsName("Out-of-Place Buffered Merge Sort");
         this.setRunSortName("Out-of-Place Buffered Mergesort");
         this.setCategory("Hybrid Sorts");
-        this.setComparisonBased(true);
         this.setBucketSort(false);
         this.setRadixSort(false);
         this.setUnreasonablySlow(false);
