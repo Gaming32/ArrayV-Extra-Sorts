@@ -1,6 +1,6 @@
 package io.github.arrayv.sorts.select;
 
-import main.ArrayVisualizer;
+import io.github.arrayv.main.ArrayVisualizer;
 
 /*
  *

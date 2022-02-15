@@ -2,8 +2,8 @@ package io.github.arrayv.sorts.quick;
 
 import static java.lang.Math.cbrt;
 
+import io.github.arrayv.main.ArrayVisualizer;
 import io.github.arrayv.sorts.templates.Sort;
-import main.ArrayVisualizer;
 
 public class CubeRootQuickSort extends Sort {
     private static double DELAY = 0.2;

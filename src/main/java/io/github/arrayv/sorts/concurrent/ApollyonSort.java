@@ -1,8 +1,8 @@
 package io.github.arrayv.sorts.concurrent;
 
+import io.github.arrayv.main.ArrayVisualizer;
 import io.github.arrayv.sorts.insert.InsertionSort;
 import io.github.arrayv.sorts.templates.CircleSorting;
-import main.ArrayVisualizer;
 
 final public class ApollyonSort extends CircleSorting {
     private boolean direction = true;

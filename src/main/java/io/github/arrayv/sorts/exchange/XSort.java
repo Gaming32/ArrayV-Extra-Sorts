@@ -1,6 +1,6 @@
 package io.github.arrayv.sorts.exchange;
+import io.github.arrayv.main.ArrayVisualizer;
 import io.github.arrayv.sorts.templates.Sort;
-import main.ArrayVisualizer;
 
 /*
 

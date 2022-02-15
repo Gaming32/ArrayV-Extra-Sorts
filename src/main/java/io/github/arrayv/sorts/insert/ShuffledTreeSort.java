@@ -1,9 +1,8 @@
 package io.github.arrayv.sorts.insert;
 
-import main.ArrayVisualizer;
-
 import java.util.Random;
 
+import io.github.arrayv.main.ArrayVisualizer;
 import io.github.arrayv.sorts.templates.Sort;
 
 /*

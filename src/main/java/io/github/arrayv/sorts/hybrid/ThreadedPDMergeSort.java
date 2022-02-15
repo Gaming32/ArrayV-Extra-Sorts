@@ -2,7 +2,7 @@ package io.github.arrayv.sorts.hybrid;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-import main.ArrayVisualizer;
+import io.github.arrayv.main.ArrayVisualizer;
 
 /*
  *

@@ -2,12 +2,11 @@ package io.github.arrayv.sorts.select;
 
 import java.util.PriorityQueue;
 
+import io.github.arrayv.main.ArrayVisualizer;
 import io.github.arrayv.sorts.templates.Sort;
 
 import java.util.Comparator;
 import java.util.LinkedList;
-
-import main.ArrayVisualizer;
 
 /*
 MIT License
