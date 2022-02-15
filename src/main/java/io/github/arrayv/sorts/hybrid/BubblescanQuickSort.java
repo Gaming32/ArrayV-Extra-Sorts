@@ -14,16 +14,15 @@ public final class BubblescanQuickSort extends Sort {
 
 	public BubblescanQuickSort(ArrayVisualizer arrayVisualizer) {
 		super(arrayVisualizer);
-		// TODO Auto-generated constructor stub
-        this.setSortListName("Bubblescan Quick");
-        this.setRunAllSortsName("Bubblescan Quick Sort");
-        this.setRunSortName("Bubblescan Quicksort");
-        this.setCategory("Hybrid Sorts");
-        this.setBucketSort(false);
-        this.setRadixSort(false);
-        this.setUnreasonablySlow(false);
-        this.setUnreasonableLimit(0);
-        this.setBogoSort(false);
+    this.setSortListName("Bubblescan Quick");
+    this.setRunAllSortsName("Bubblescan Quick Sort");
+    this.setRunSortName("Bubblescan Quicksort");
+    this.setCategory("Hybrid Sorts");
+    this.setBucketSort(false);
+    this.setRadixSort(false);
+    this.setUnreasonablySlow(false);
+    this.setUnreasonableLimit(0);
+    this.setBogoSort(false);
 	}
 	private InsertionSort insertSorter;
 	private MaxHeapSort heapSorter;
@@ -89,7 +88,6 @@ public final class BubblescanQuickSort extends Sort {
 
 	@Override
 	public void runSort(int[] array, int sortLength, int bucketCount) throws Exception {
-		// TODO Auto-generated method stub
 		this.insertSorter = new InsertionSort(this.arrayVisualizer);
 		this.heapSorter = new MaxHeapSort(this.arrayVisualizer);
 		sort(array, 0, sortLength, 2 * (int)(Math.log(sortLength) / Math.log(2.0D)));
