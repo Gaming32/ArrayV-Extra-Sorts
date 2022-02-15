@@ -1,8 +1,8 @@
 package io.github.arrayv.sorts.hybrid;
 
+import io.github.arrayv.sorts.select.MaxHeapSort;
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.select.MaxHeapSort;
-import sorts.templates.Sort;
 
 /*
  *

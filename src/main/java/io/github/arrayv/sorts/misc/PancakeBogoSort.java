@@ -1,7 +1,7 @@
 package io.github.arrayv.sorts.misc;
 
+import io.github.arrayv.sorts.templates.BogoSorting;
 import main.ArrayVisualizer;
-import sorts.templates.BogoSorting;
 
 /**
  * @author Ayako-chan

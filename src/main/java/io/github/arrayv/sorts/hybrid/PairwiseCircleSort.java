@@ -1,8 +1,7 @@
 package io.github.arrayv.sorts.hybrid;
 
-import sorts.templates.Sort;
-import sorts.insert.InsertionSort;
-
+import io.github.arrayv.sorts.insert.InsertionSort;
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
 
 /*

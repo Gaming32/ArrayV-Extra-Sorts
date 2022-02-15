@@ -3,8 +3,8 @@
  */
 package io.github.arrayv.sorts.select;
 
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.templates.Sort;
 
 /*
  *

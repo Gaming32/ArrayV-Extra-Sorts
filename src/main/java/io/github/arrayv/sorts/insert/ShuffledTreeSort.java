@@ -1,9 +1,10 @@
 package io.github.arrayv.sorts.insert;
 
 import main.ArrayVisualizer;
-import sorts.templates.Sort;
 
 import java.util.Random;
+
+import io.github.arrayv.sorts.templates.Sort;
 
 /*
  *

@@ -1,7 +1,7 @@
 package io.github.arrayv.sorts.hybrid;
 
+import io.github.arrayv.sorts.merge.PDMergeSort;
 import main.ArrayVisualizer;
-import sorts.merge.PDMergeSort;
 
 /*
  *

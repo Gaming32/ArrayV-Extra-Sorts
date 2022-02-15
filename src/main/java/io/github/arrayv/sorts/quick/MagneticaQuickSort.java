@@ -2,9 +2,9 @@ package io.github.arrayv.sorts.quick;
 
 import java.util.Random;
 
+import io.github.arrayv.sorts.insert.InsertionSort;
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.insert.InsertionSort;
-import sorts.templates.Sort;
 
 /*
 

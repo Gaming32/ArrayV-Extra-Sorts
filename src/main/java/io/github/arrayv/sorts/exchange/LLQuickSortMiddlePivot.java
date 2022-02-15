@@ -1,7 +1,7 @@
 package io.github.arrayv.sorts.exchange;
 
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.templates.Sort;
 
 final public class LLQuickSortMiddlePivot extends Sort {
     public LLQuickSortMiddlePivot(ArrayVisualizer arrayVisualizer) {

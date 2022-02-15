@@ -3,8 +3,8 @@ package io.github.arrayv.sorts.quick;
 import java.util.Random;
 
 import io.github.arrayv.sorts.insert.PDBinaryInsertionSort;
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.templates.Sort;
 
 /*
 

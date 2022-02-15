@@ -1,8 +1,8 @@
 package io.github.arrayv.sorts.hybrid;
 
+import io.github.arrayv.sorts.templates.Sort;
+import io.github.arrayv.sorts.templates.TimSorting;
 import main.ArrayVisualizer;
-import sorts.templates.Sort;
-import sorts.templates.TimSorting;
 
 /**
  * @author Ayako-chan

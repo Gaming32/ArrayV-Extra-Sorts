@@ -1,8 +1,10 @@
 package io.github.arrayv.sorts.distribute;
 
 import main.ArrayVisualizer;
-import sorts.templates.Sort;
+
 import java.util.ArrayList;
+
+import io.github.arrayv.sorts.templates.Sort;
 
 
 /*

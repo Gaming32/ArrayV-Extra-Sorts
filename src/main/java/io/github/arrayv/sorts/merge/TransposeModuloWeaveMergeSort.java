@@ -1,8 +1,8 @@
 package io.github.arrayv.sorts.merge;
 
+import io.github.arrayv.sorts.merge.QuadSort;
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.merge.QuadSort;
-import sorts.templates.Sort;
 
 /*
 

@@ -1,7 +1,7 @@
 package io.github.arrayv.sorts.concurrent;
 
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.templates.Sort;
 
 /*
 Idea made by Control#2866 in The Studio Discord Server (https://discord.com/invite/2xGkKC2)

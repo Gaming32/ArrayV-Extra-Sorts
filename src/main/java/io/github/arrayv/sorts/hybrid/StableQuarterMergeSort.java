@@ -1,9 +1,9 @@
 package io.github.arrayv.sorts.hybrid;
 
+import io.github.arrayv.sorts.merge.BlockSwapMergeSort;
 import io.github.arrayv.sorts.merge.ReverseLazyStableSort;
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.merge.BlockSwapMergeSort;
-import sorts.templates.Sort;
 
 /*
  *

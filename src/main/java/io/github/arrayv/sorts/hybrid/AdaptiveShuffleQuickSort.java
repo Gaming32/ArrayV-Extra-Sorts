@@ -2,10 +2,10 @@ package io.github.arrayv.sorts.hybrid;
 
 import java.util.Random;
 
+import io.github.arrayv.sorts.insert.InsertionSort;
+import io.github.arrayv.sorts.select.MaxHeapSort;
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.insert.InsertionSort;
-import sorts.select.MaxHeapSort;
-import sorts.templates.Sort;
 
 /*
 

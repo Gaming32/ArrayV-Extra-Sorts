@@ -1,11 +1,13 @@
 package io.github.arrayv.sorts.select;
 
 import java.util.PriorityQueue;
+
+import io.github.arrayv.sorts.templates.Sort;
+
 import java.util.Comparator;
 import java.util.LinkedList;
 
 import main.ArrayVisualizer;
-import sorts.templates.Sort;
 
 /*
 MIT License

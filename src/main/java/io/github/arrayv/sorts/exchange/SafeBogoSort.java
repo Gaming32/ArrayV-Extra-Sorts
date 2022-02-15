@@ -2,7 +2,7 @@ package io.github.arrayv.sorts.exchange;
 
 import java.util.Random;
 
-import sorts.templates.Sort;
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
 
 /*

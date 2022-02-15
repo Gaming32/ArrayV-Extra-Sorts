@@ -1,7 +1,7 @@
 package io.github.arrayv.sorts.hybrid;
 
+import io.github.arrayv.sorts.templates.GrailSorting;
 import main.ArrayVisualizer;
-import sorts.templates.GrailSorting;
 
 final public class QuickSPSort extends GrailSorting {
     public QuickSPSort(ArrayVisualizer arrayVisualizer) {

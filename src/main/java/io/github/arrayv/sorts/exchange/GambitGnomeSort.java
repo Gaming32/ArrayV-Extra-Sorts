@@ -1,8 +1,8 @@
 package io.github.arrayv.sorts.exchange;
 
+import io.github.arrayv.sorts.exchange.OptimizedGnomeSort;
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.exchange.OptimizedGnomeSort;
-import sorts.templates.Sort;
 
 public final class GambitGnomeSort extends Sort {
 

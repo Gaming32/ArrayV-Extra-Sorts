@@ -2,8 +2,8 @@ package io.github.arrayv.sorts.distribute;
 
 import java.util.ArrayList;
 
+import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
-import sorts.templates.Sort;
 
 /*
 L/MSD Radix Sort Sort 2021 Copyright (C) thatsOven
