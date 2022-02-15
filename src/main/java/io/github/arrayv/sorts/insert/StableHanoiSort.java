@@ -2,7 +2,6 @@ package io.github.arrayv.sorts.insert;
 
 import java.util.Stack;
 
-import io.github.arrayv.sorts.insert.HanoiSort;
 import io.github.arrayv.sorts.templates.Sort;
 import main.ArrayVisualizer;
 
