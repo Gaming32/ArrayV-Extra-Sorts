@@ -1,5 +1,6 @@
 {
     "yaml.schemas": {
         "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/josia/OneDrive/Documents/ArrayV-Extra-Sorts/.github/workflows/*.yml"
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

@@ -15,8 +15,10 @@ jobs:
               distribution: zulu
         - name: Build with Maven
           run: mvn clean install
+        - name: Rename JAR
+          run: mv target/ArrayV-Extra-Sorts-*.jar target/ArrayV-Extra-Sorts.jar
         - name: Upload artifact
           uses: actions/upload-artifact@v2
           with:
             name: extra-sorts-jar
-            path: target/ArrayV-Extra-Sorts-*.jar
+            path: target/ArrayV-Extra-Sorts.jar
