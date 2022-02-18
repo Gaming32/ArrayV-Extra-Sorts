@@ -1,5 +1,5 @@
 name: build
-on: [push, pull_request, workflow_dispatch]
+on: [pull_request, push, workflow_dispatch]
 
 jobs:
   build:
@@ -13,10 +13,10 @@ jobs:
           with:
               java-version: 8
               distribution: zulu
-        - name: Build with Ant
-          run: ant -noinput -buildfile build.xml build
+        - name: Build with Maven
+          run: mvn clean install
         - name: Upload artifact
           uses: actions/upload-artifact@v2
           with:
             name: extra-sorts-jar
-            path: dist/ArrayV-Extra-Sorts.jar
+            path: target/ArrayV-Extra-Sorts-*.jar
