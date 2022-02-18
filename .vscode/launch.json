@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // should match run.bat
+            "type": "java",
+            "name": "Debug ArrayV",
+            "request": "launch",
+            "mainClass": "io.github.arrayv.main.ArrayVisualizer",
+            "projectName": "ArrayV-Extra-Sorts",
+            "vmArgs": ["-Dsun.java2d.d3d=false"]
+        },
+        {
+            // should match run.bat
+            "type": "java",
+            "name": "Debug ArrayV (custom max length)",
+            "request": "launch",
+            "mainClass": "io.github.arrayv.main.ArrayVisualizer",
+            "projectName": "ArrayV-Extra-Sorts",
+            "args": ["${input:length}"],
+            "vmArgs": ["-Dsun.java2d.d3d=false"]
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "length",
+            "description": "Maximum length of array, as a base-2 power",
+            "type":"promptString"
+        }
+    ]
+}
