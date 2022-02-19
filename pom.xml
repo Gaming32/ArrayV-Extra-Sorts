@@ -6,7 +6,7 @@
 
   <groupId>io.github.arrayv</groupId>
   <artifactId>ArrayV-Extra-Sorts</artifactId>
-  <version>5.0-SNAPSHOT</version>
+  <version>5.0</version>
 
   <name>ArrayV Extra Sorts Pack</name>
   <description>Extra Sorts Pack for ArrayV</description>
@@ -29,7 +29,7 @@
     <dependency>
       <groupId>com.github.Gaming32</groupId>
       <artifactId>ArrayV</artifactId>
-      <version>b653720e95</version>
+      <version>3d6b134dce</version>
     </dependency>
   </dependencies>
 
