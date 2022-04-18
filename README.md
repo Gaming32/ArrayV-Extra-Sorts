@@ -20,14 +20,12 @@ To get your hands on a shiny `ArrayV-Extra-Sorts.jar`, you can download a JAR fr
 
 **NOTE:** You should really have some level of technical experience if you want to build this yourself.
 
-**IMPORTANT NOTE**: Do *not* download the ZIP of this repo from GitHub, as that does not include the ArrayV submodule, which is required. However, GitHub Desktop does include the submodule, so using that *will* work!
-
-To build ArrayV-Extra-Sorts, simply clone and compile ArrayV-Extra-Sorts with Apache Ant. You can find the built JAR in the `dist` directory.
+To build ArrayV-Extra-Sorts, simply clone and compile ArrayV-Extra-Sorts with Maven. You can find the built JAR in the `target` directory.
 
 ```shell
-git clone --recurse-submodules https://github.com/Gaming32/ArrayV-Extra-Sorts
+git clone https://github.com/Gaming32/ArrayV-Extra-Sorts
 cd ArrayV-Extra-Sorts
-./antw
+./mvnw verify
 ```
 
 ## Contributing to the pack
