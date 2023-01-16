@@ -27,8 +27,7 @@ final public class NoisySort extends Sort {
         this.setQuestion("Enter the noise intensity for this sort:", 16);
     }
 
-    @Override
-    public int validateAnswer(int answer) {
+    public static int validateAnswer(int answer) {
         if (answer < 1) return 1;
         return answer;
     }

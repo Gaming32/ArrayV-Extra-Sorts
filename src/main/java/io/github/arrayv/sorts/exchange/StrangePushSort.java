@@ -27,8 +27,7 @@ final public class StrangePushSort extends Sort {
         this.setQuestion("Enter the base for this sort:", 2);
     }
 
-    @Override
-    public int validateAnswer(int answer) {
+    public static int validateAnswer(int answer) {
         if (answer < 2) return 2;
         return answer;
     }

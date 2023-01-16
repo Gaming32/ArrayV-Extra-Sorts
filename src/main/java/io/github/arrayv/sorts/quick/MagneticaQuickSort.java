@@ -114,8 +114,7 @@ final public class MagneticaQuickSort extends Sort {
         }
     }
 
-    @Override
-    public int validateAnswer(int answer) {
+    public static int validateAnswer(int answer) {
         if (answer < 1 || answer > 6) return 4;
         return answer;
     }
